@@ -14,3 +14,8 @@ window.onload = function() {
 
   update();
 }
+
+function update() {
+  context.fillStyle = 'black';
+  context.fillRect(0, 0, board.width, board.height);
+}
